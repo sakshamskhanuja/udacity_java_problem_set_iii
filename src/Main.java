@@ -123,9 +123,7 @@ public class Main {
      * @return Number from 1 to 6.
      */
     public int rollDice() {
-        int a = (int) (Math.random() * 6) + 1;
-        System.out.println(a);
-        return a;
+        return (int) (Math.random() * 6) + 1;
     }
 
     /**
